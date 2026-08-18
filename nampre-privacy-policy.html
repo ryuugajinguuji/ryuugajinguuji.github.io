@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー — 解けるナンプレ</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", Meiryo, sans-serif;
+         line-height: 1.85; color: #2B2B2B; background: #F5F0E6; margin: 0; }
+  main { max-width: 720px; margin: 0 auto; padding: 24px 20px 64px; }
+  h1 { font-size: 1.5rem; border-bottom: 3px solid #D5AE63; padding-bottom: 8px; }
+  h2 { font-size: 1.2rem; margin-top: 2em; border-left: 4px solid #C13A28; padding-left: 10px; }
+  h3 { font-size: 1.05rem; margin-top: 1.5em; color: #6B6250; }
+  table { border-collapse: collapse; width: 100%; font-size: 0.85rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #E6DEC9; padding: 8px; text-align: left; vertical-align: top; }
+  th { background: #EDE7D8; }
+  code { background: #EDE7D8; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  ul { padding-left: 1.4em; }
+  a { color: #C13A28; }
+  hr { border: none; border-top: 1px solid #E6DEC9; margin: 2em 0; }
+</style>
+</head>
+<body>
+<main>
+<h1>プライバシーポリシー — 解けるナンプレ（Teachable Sudoku）</h1>
+<h2>1. はじめに</h2>
+<p>本プライバシーポリシー（以下「本ポリシー」）は、個人で開発・運営する開発者（以下「開発者」）が提供するAndroidアプリ「解けるナンプレ」（Teachable Sudoku、アプリケーションID: <code>app.nampre.tokeru</code>。以下「本アプリ」）における利用者情報の取り扱いについて説明するものです。本アプリをダウンロード・利用いただいた場合、本ポリシーの内容に同意いただいたものとします。</p>
+<h2>2. 収集する情報</h2>
+<p>本アプリ自体は、氏名・メールアドレス等の個人情報をアプリ内で入力させる機能を持ちません。ただし、本アプリが組み込んでいる以下の第三者SDKが、それぞれの機能提供のために情報を収集する場合があります。</p>
+<h3>2.1 広告配信（Google AdMob）</h3>
+<p>本アプリは広告表示のためにGoogle AdMob SDKを使用しています。AdMobは広告の配信・最適化・不正防止のため、以下のような情報を収集する場合があります。</p>
+<ul>
+<li>広告ID（Advertising ID）</li>
+<li>IPアドレスに基づくおおよその位置情報</li>
+<li>デバイス情報（機種・OSバージョン等）</li>
+<li>広告の表示・クリック等のインタラクション履歴</li>
+<li>クラッシュログ・診断情報（SDKの安定性・正常動作の確認のため）</li>
+</ul>
+<h3>2.2 同意管理（Google UMP SDK）</h3>
+<p>欧州経済領域（EEA）・英国のユーザーに対しては、Google User Messaging Platform（UMP）SDKを通じてGDPRに基づく同意フォームを表示する場合があります。ユーザーが選択した同意状態（パーソナライズ広告の可否等）は端末内に保存されます。</p>
+<h3>2.3 課金処理（RevenueCat）</h3>
+<p>本アプリの「広告除去」機能（買い切り）の購入処理はGoogle Playの決済システムを通じて行われます。購入内容の検証のため、RevenueCat（購入管理SDK）が購入トークンおよび匿名のアプリユーザーIDを処理する場合があります。本アプリおよびRevenueCatは、クレジットカード番号等の決済情報を直接取り扱いません（決済情報はGoogle Playが管理します）。</p>
+<h2>3. 収集しない情報</h2>
+<p>本アプリは、以下の情報を収集・送信しません。</p>
+<ul>
+<li>アカウント登録・ログインを求めないため、氏名・メールアドレス等のアカウント情報や連絡先情報</li>
+<li>パズルの進行状況・統計・設定・デイリー記録等のプレイデータ — これらは端末内のSQLiteデータベースにのみ保存され、開発者のサーバー等の外部へ送信・収集されることはありません（開発者は本アプリ用のサーバーを保有していません）</li>
+<li>解析（アナリティクス）SDKによる利用状況の収集（本アプリは解析SDKを導入していません）</li>
+</ul>
+<h2>4. 利用目的</h2>
+<p>第三者SDK経由で収集される情報は、それぞれ以下の目的でのみ利用される場合があります。</p>
+<ul>
+<li>広告の配信・最適化・不正クリック防止（AdMob）</li>
+<li>広告SDKの安定性・正常動作の確認（AdMob のクラッシュログ・診断情報）</li>
+<li>広告に関する同意状態の管理・GDPR対応（UMP）</li>
+<li>アプリ内購入（広告除去）の検証・復元（RevenueCat）</li>
+</ul>
+<p>開発者自身が上記情報を直接収集・保管・利用することはありません（各SDK提供元が処理します）。</p>
+<h2>5. 第三者提供・第三者SDK</h2>
+<p>本アプリは以下の第三者SDKを組み込んでおり、各社のプライバシーポリシーが適用されます。</p>
+<table>
+<tr><th>SDK</th><th>提供元</th><th>用途</th><th>プライバシーポリシー</th></tr>
+<tr><td>AdMob</td><td>Google LLC</td><td>広告配信</td><td>https://policies.google.com/privacy</td></tr>
+<tr><td>UMP SDK</td><td>Google LLC</td><td>同意管理（GDPR対応）</td><td>https://policies.google.com/privacy</td></tr>
+<tr><td>RevenueCat</td><td>RevenueCat, Inc.</td><td>購入処理・検証</td><td>https://www.revenuecat.com/privacy</td></tr>
+</table>
+<p>上記以外の目的で、開発者が第三者に個人情報を提供することはありません。</p>
+<h2>6. ユーザーの選択</h2>
+<ul>
+<li><strong>同意状態の変更</strong>: 現在、アプリ内の設定画面から同意フォームを再表示する機能は提供していません。同意状態（パーソナライズ広告の可否等）を変更したい場合は、本アプリを再インストールする（初回起動時に同意フォームが再表示されます）か、Android端末のOS設定から広告IDをリセットする、またはパーソナライズ広告をオプトアウトすることができます（設定 &gt; プライバシー &gt; 広告など、OSバージョンにより経路は異なります）。</li>
+<li><strong>広告除去の購入</strong>: 「広告除去」を購入することで、本アプリ内でのAdMob広告の表示を停止できます。</li>
+</ul>
+<h2>7. データ保持と削除</h2>
+<p>端末内SQLiteに保存されるプレイデータ（進行状況・統計・設定・デイリー記録）は、本アプリをアンインストールすることで端末から削除されます。第三者SDK（AdMob/UMP/RevenueCat）側が保持する情報の保持期間・削除方法は、各社のプライバシーポリシーに従います。</p>
+<h2>8. 児童のプライバシー</h2>
+<p>本アプリは13歳未満の児童を主な対象としたサービスではありません。開発者は13歳未満の児童から意図的に個人情報を収集することはありません。児童による情報提供が判明した場合は、速やかに削除等の対応を検討します。</p>
+<h2>9. 改定</h2>
+<p>本ポリシーの内容は、法令の変更やアプリの機能追加等に伴い、予告なく改定される場合があります。重要な変更がある場合は、アプリ内または本ページにて周知するよう努めます。</p>
+<ul>
+<li>制定日: 2026-08-18</li>
+<li>最終改定日: 2026-08-18</li>
+</ul>
+<h2>10. お問い合わせ</h2>
+<p>本ポリシーに関するお問い合わせは、以下までご連絡ください。</p>
+<p>連絡先: mps.test.mail1@gmail.com</p>
+</main>
+</body>
+</html>
